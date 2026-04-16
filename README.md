@@ -90,9 +90,9 @@ These skills are intentionally opinionated. A few things that should stay true i
 
 **Work from incomplete information.** The skills generate output from whatever context is given. They do not ask clarifying questions before producing a result. A partial result with named gaps is more useful than a stalled conversation.
 
-**Gates are sequential.** Gate 1 informs Gate 2. Gate 2 informs Gate 3. A skip is always noted, not silently absorbed.
+**Gate 1 requires the thinking, not the passing.** Early-stage work will not have complete PDVF signal -- that is expected. What Gate 1 requires is that the team engages with the four dimensions, names the riskiest assumption, and knows what it would take to increase confidence. Running the filter with weak signal and a named gap is not a skip. Proceeding without running it at all is. Gate 2 and Gate 3 are informed by what Gate 1 surfaces, not gated on it closing clean.
 
-**PDVF is directional, not binary.** Early-stage work will have weaker signal. What matters is naming the riskiest assumption and running at it.
+**A skip is always noted, not silently absorbed.** If a gate was bypassed, the output says so and names what was skipped. It does not pretend the skip did not happen.
 
 **Stronger evidence costs something to produce.** A quote is easy. A behavior is harder to fake. The skills distinguish between stated and behavioral signal.
 
