@@ -1,4 +1,4 @@
-# Product Pacing Zones -- Claude Code Skills
+# Product Pacing Zones: Claude Code Skills
 
 Claude Code skills for the [Product Pacing Zones](https://quietbranches.com/work/product-pacing-zones/) framework.
 
@@ -16,10 +16,10 @@ Full framework: [quietbranches.com/work/product-pacing-zones](https://quietbranc
 
 ## The three gates
 
-### Gate 1 -- PDVF Filter (`/pdvf-filter`)
-Gate 1 is not a filter you pass. It is a way to locate your weakest link and shrink it to a level where shipping to learn is cheaper than waiting to be sure. Four dimensions, each a separate confidence call: Problem, Desirable, Viable, Feasible. Any dimension still shaky becomes a Zone 1 experiment -- but that experiment runs alongside Gate 2, not instead of it.
+### Gate 1: PDVF Filter (`/pdvf-filter`)
+Gate 1 is not a filter you pass. It is a way to locate your weakest link and shrink it to a level where shipping to learn is cheaper than waiting to be sure. Four dimensions, each a separate confidence call: Problem, Desirable, Viable, Feasible. Any dimension still shaky becomes a Zone 1 experiment that runs alongside Gate 2, not instead of it.
 
-### Gate 2 -- Zone Classifier (`/zone-classifier`)
+### Gate 2: Zone Classifier (`/zone-classifier`)
 Four questions to classify a surface by risk. The result is one of four zones, each with a gate requirement that must clear before build or staging begins.
 
 | Zone | Name | Gate |
@@ -29,8 +29,8 @@ Four questions to classify a surface by risk. The result is one of four zones, e
 | 3 | Provisional | Vendor + integration confirmed |
 | 4 | Move deliberately | Legal or compliance sign-off before design starts |
 
-### Gate 3 -- Outcome Review (`/gate3-review`)
-Work is not finished when it hits production. It is finished when the behavior change predicted in Gate 1 actually happens. Gate 3 runs three tests -- did behavior change, is the value sustainable, and the "so what?" test -- and maps the result to a signal tier: maintain, iterate, or pivot/kill.
+### Gate 3: Outcome Review (`/gate3-review`)
+Work is not finished when it hits production. It is finished when the behavior change predicted in Gate 1 actually happens. Gate 3 runs three tests (did behavior change, is the value sustainable, and the "so what?" test) and maps the result to a signal tier: maintain, iterate, or pivot/kill.
 
 ---
 
@@ -62,7 +62,7 @@ Invoke a skill by typing its name as a slash command in Claude Code:
 /gate3-review
 ```
 
-Then describe the feature, bet, or shipped surface you want to evaluate. The skill runs immediately -- no clarifying questions.
+Then describe the feature, bet, or shipped surface you want to evaluate. The skill runs immediately. No clarifying questions.
 
 **Example**
 
@@ -90,7 +90,7 @@ These skills are intentionally opinionated. A few things that should stay true i
 
 **Work from incomplete information.** The skills generate output from whatever context is given. They do not ask clarifying questions before producing a result. A partial result with named gaps is more useful than a stalled conversation.
 
-**Gate 1 requires the thinking, not the passing.** Early-stage work will not have complete PDVF signal -- that is expected. What Gate 1 requires is that the team engages with the four dimensions, names the riskiest assumption, and knows what it would take to increase confidence. Running the filter with weak signal and a named gap is not a skip. Proceeding without running it at all is. Gate 2 and Gate 3 are informed by what Gate 1 surfaces, not gated on it closing clean.
+**Gate 1 requires the thinking, not the passing.** Early-stage work will not have complete PDVF signal; that is expected. What Gate 1 requires is that the team engages with the four dimensions, names the riskiest assumption, and knows what it would take to increase confidence. Running the filter with weak signal and a named gap is not a skip. Proceeding without running it at all is. Gate 2 and Gate 3 are informed by what Gate 1 surfaces, not gated on it closing clean.
 
 **A skip is always noted, not silently absorbed.** If a gate was bypassed, the output says so and names what was skipped. It does not pretend the skip did not happen.
 

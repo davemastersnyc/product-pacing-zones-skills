@@ -2,7 +2,7 @@
 
 Part of the [Product Pacing Zones](https://quietbranches.com/work/product-pacing-zones/) framework by Quiet Branches Labs.
 
-Gate 2 determines how fast a surface can move and what has to clear before it ships. Four questions. Compliance and legal exposure is always the first check -- if it exists, the zone is 4 regardless of everything else. When in doubt, default to the more conservative zone. The goal is not to stay there; it is to force the conversation that moves you out of it.
+Gate 2 determines how fast a surface can move and what has to clear before it ships. Four questions. Compliance and legal exposure is always the first check: if it exists, the zone is 4 regardless of everything else. When in doubt, default to the more conservative zone. The goal is not to stay there; it is to force the conversation that moves you out of it.
 
 ---
 
@@ -31,7 +31,7 @@ Work through these questions in order. Stop as soon as a zone is determined.
 3. **Does this feature rely on data or functionality that another team or system provides?**
    Yes → pending Zone 2 (continue to Q4). No → pending Zone 1 (continue to Q4).
 
-4. **Can your engineer explain the data flow in 60 seconds -- who owns each piece, inputs and outputs, where the hand-off happens?**
+4. **Can your engineer explain the data flow in 60 seconds: who owns each piece, inputs and outputs, where the hand-off happens?**
    No → recommend a technical spike before assigning a zone. Yes → confirm zone from Q3.
 
 ---
@@ -49,13 +49,13 @@ Work through these questions in order. Stop as soon as a zone is determined.
 
 ---
 
-**Zone: [1 / 2 / 3 / 4]** -- [zone name]
+**Zone: [1 / 2 / 3 / 4]** [zone name]
 
 **What this means:** [one clear sentence on what this zone requires]
 
 **Gate requirement:** [what must clear before staging/design/build starts, per zone]
 - Zone 1: internal review only
-- Zone 2: named reviewer must clear before staging -- assign a person, not a role
+- Zone 2: named reviewer must clear before staging. assign a person, not a role.
 - Zone 3: vendor + integration confirmed before internal design decisions begin
 - Zone 4: legal or compliance sign-off before design starts
 

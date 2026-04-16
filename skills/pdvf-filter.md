@@ -2,7 +2,7 @@
 
 Part of the [Product Pacing Zones](https://quietbranches.com/work/product-pacing-zones/) framework by Quiet Branches Labs.
 
-Gate 1 is not a filter you pass. It is a way to locate your weakest link and shrink it to a level where shipping to learn is cheaper than waiting to be sure. Four dimensions, each a separate confidence call. The problem can be real while your solution is wrong. The solution can be wanted while the business case breaks. Any dimension still shaky becomes a Zone 1 experiment -- but that experiment runs alongside Gate 2, not instead of it.
+Gate 1 is not a filter you pass. It is a way to locate your weakest link and shrink it to a level where shipping to learn is cheaper than waiting to be sure. Four dimensions, each a separate confidence call. The problem can be real while your solution is wrong. The solution can be wanted while the business case breaks. Any dimension still shaky becomes a Zone 1 experiment that runs alongside Gate 2, not instead of it.
 
 ---
 

@@ -18,7 +18,7 @@ Contributions that sharpen the thinking are welcome. Contributions that soften i
 
 **New signal types or evidence patterns.** The PDVF filter uses a stated/behavioral signal distinction. If you have worked in a domain (hardware, regulated industries, B2B enterprise, consumer mobile) and the evidence patterns are meaningfully different, document them and extend the skill accordingly.
 
-**Domain-specific forks.** A fork calibrated for fintech, for healthcare, for marketplace products -- useful. The zone definitions may shift. Zone 4 gets wider in regulated industries. Note the changes explicitly.
+**Domain-specific forks.** A fork calibrated for fintech, for healthcare, or marketplace products is useful. The zone definitions may shift. Zone 4 gets wider in regulated industries. Note the changes explicitly.
 
 **Additional gates or checks.** If there is a genuine gap in the three-gate sequence for your context, add a skill for it. Don't collapse it into an existing one.
 
@@ -27,9 +27,9 @@ Contributions that sharpen the thinking are welcome. Contributions that soften i
 ## What does not belong here
 
 - Generic product management templates that are not grounded in the framework
-- Skills that ask a lot of clarifying questions before generating output -- that is not how these work
-- Output that softens or hedges the result to avoid conflict -- if a PDVF check fails, it fails
-- Assumption mapping methodology -- that is David Bland's work, not ours. Link to [Testing Business Ideas](https://www.amazon.com/Rapid-Testing-Business-Ideas-Customer/dp/1119551447) and [Precoil](https://precoil.com) instead
+- Skills that ask a lot of clarifying questions before generating output. That is not how these work.
+- Output that softens or hedges the result to avoid conflict. If a PDVF check fails, it fails.
+- Assumption mapping methodology. That is David Bland's work, not ours. Link to [Testing Business Ideas](https://www.amazon.com/Rapid-Testing-Business-Ideas-Customer/dp/1119551447) and [Precoil](https://precoil.com) instead
 
 ---
 

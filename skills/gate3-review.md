@@ -2,7 +2,7 @@
 
 Part of the [Product Pacing Zones](https://quietbranches.com/work/product-pacing-zones/) framework by Quiet Branches Labs.
 
-Shipping is a hypothesis. Gate 3 is the proof. Work is not finished when it hits production; it is finished when the behavior change predicted in Gate 1 actually happens. Unlike Gates 1 and 2, Gate 3 is retrospective. It forces the team to look at shipped work through the lens of impact. If the signal is weak, the work does not just sit in the product -- it gets refined, pivoted, or removed.
+Shipping is a hypothesis. Gate 3 is the proof. Work is not finished when it hits production; it is finished when the behavior change predicted in Gate 1 actually happens. Unlike Gates 1 and 2, Gate 3 is retrospective. It forces the team to look at shipped work through the lens of impact. If the signal is weak, the work does not just sit in the product. It gets refined, pivoted, or removed.
 
 ---
 
@@ -24,7 +24,7 @@ Shipping is a hypothesis. Gate 3 is the proof. Work is not finished when it hits
 Run all three. Each is a separate call.
 
 **1. Did behavior change?**
-Identify the specific user action that confirms the problem is being solved. A metric that moved passes. A feature being live does not. Look for the signal named in Gate 1 -- not a convenient proxy.
+Identify the specific user action that confirms the problem is being solved. A metric that moved passes. A feature being live does not. Look for the signal named in Gate 1, not a convenient proxy.
 
 **2. Is the value sustainable?**
 Does the solution hold at scale? Does it create new friction elsewhere? A metric that moved for a week and reverted is not a solved problem. The signal must hold across two or more measurement windows.
@@ -43,17 +43,17 @@ If you rolled this back tomorrow, who would complain and why? If the answer is "
 
 ---
 
-**Test 1 -- Did behavior change?**
+**Test 1: Did behavior change?**
 Expected behavior change: [what was the prediction from Gate 1, or what can be inferred]
 Observed signal: [what the data shows]
 Result: Pass / Inconclusive / Fail
 
-**Test 2 -- Is the value sustainable?**
+**Test 2: Is the value sustainable?**
 Signal consistency: [has it held across measurement windows, or is it early / one-window only]
 New friction introduced: [yes / no / unknown]
 Result: Pass / Inconclusive / Fail
 
-**Test 3 -- The "so what?" test**
+**Test 3: The "so what?" test**
 Rollback impact: [who would notice and why]
 Result: Pass / Inconclusive / Fail
 
