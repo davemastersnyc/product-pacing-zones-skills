@@ -17,7 +17,7 @@ Full framework: [quietbranches.com/work/product-pacing-zones](https://quietbranc
 ## The three gates
 
 ### Gate 1 -- PDVF Filter (`/pdvf-filter`)
-Before anything gets a zone or a ticket, it needs to pass four evidence tests. Problem, Desirable, Viable, Feasible. Each is a separate confidence call. Any failure means you need a Zone 1 experiment, not a production ticket.
+Gate 1 is not a filter you pass. It is a way to locate your weakest link and shrink it to a level where shipping to learn is cheaper than waiting to be sure. Four dimensions, each a separate confidence call: Problem, Desirable, Viable, Feasible. Any dimension still shaky becomes a Zone 1 experiment -- but that experiment runs alongside Gate 2, not instead of it.
 
 ### Gate 2 -- Zone Classifier (`/zone-classifier`)
 Four questions to classify a surface by risk. The result is one of four zones, each with a gate requirement that must clear before build or staging begins.
