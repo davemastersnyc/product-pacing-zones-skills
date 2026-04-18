@@ -37,3 +37,7 @@ Gate 1 is not a filter you pass. It is a way to locate your weakest link and shr
 **Recommended Zone 1 experiment:** [one specific, timeboxed experiment that would most reduce uncertainty on the weakest dimension. Name the method, the signal to look for, and what a pass looks like. This runs alongside the work, not as a prerequisite to Gate 2.]
 
 **Gate 1 read:** [one sentence on where confidence sits overall -- not a pass/fail verdict, but an honest assessment of what is known, what is approximate, and what will only be confirmed by Gate 3. Name what to watch as the surface develops.]
+
+> If all dimensions are Medium or High confidence: **Next:** confidence established -- run `/zone-classifier` with this surface.
+
+> If any dimension is Low confidence: **Next:** run a Zone 1 experiment on [weakest dimension] before proceeding to `/zone-classifier`.

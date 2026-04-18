@@ -44,7 +44,7 @@ These are [Claude Code](https://claude.ai/code) skills. Claude Code is Anthropic
 
 ```bash
 # option A: clone into an existing project
-git clone https://github.com/quietbranches/product-pacing-zones-skills .claude/skills/pacing-zones
+git clone https://github.com/davemastersnyc/product-pacing-zones-skills .claude/skills/pacing-zones
 
 # option B: copy the skill files
 cp skills/*.md your-project/.claude/skills/

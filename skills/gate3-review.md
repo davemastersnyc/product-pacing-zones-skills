@@ -71,6 +71,8 @@ Result: Pass / Inconclusive / Fail
 
 **Next action:** [one specific next step based on the tier]
 
+**Loop:** High signal -- standard monitoring, no further gate action. Mixed signal -- re-run `/pdvf-filter` with what you now know, then `/zone-classifier` for the revised surface. No signal -- re-run `/pdvf-filter` from scratch.
+
 ---
 
 > If "no signal": the failure is almost always that P was less real than assumed, or D did not address it. Both are Gate 1 failures, not execution failures. Say so.
