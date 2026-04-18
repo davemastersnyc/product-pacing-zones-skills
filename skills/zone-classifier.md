@@ -63,10 +63,12 @@ Work through these questions in order. Stop as soon as a zone is determined.
 
 ---
 
+> If Zone 1: if progress is slow, the first question is shading quality, not process. thin context forces the builder to stop and ask. improve the shading before diagnosing the workflow.
+
 > If Zone 2: remind that the dependency blocks engineering, not learning. Zone 1-style discovery should continue while the blocker is open. If the dependency has not moved in 14 days, re-evaluate for PDVF.
 
 > If Zone 3: build the container and placeholder states only. No internal logic until the dependency resolves.
 
-> If Zone 4: the UI shell around a compliance surface may not carry the same zone. Identify which parts of the surface carry the risk; only those move at Zone 4 pace.
+> If Zone 4: the UI shell around a compliance surface may not carry the same zone. Identify which parts of the surface carry the risk; only those move at Zone 4 pace. If work is in a legitimate external review queue (legal, compliance, procurement), that wait is the process working. The clearance event is what moves it. Re-triage is appropriate only when there is no active reviewer and no response for an extended period -- that is a stall, not a queue.
 
 > If Gate 1 (PDVF) was not run: note the override. Document who authorized it, which check was skipped, and why. The zone is assigned; the gap is not closed.
