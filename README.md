@@ -34,6 +34,13 @@ Work is not finished when it hits production. It is finished when the behavior c
 
 ---
 
+## Workflow helper
+
+### Intake to Zone (`/intake-to-zone`)
+Chains Gate 1 and Gate 2 into a single intake pass. Use it when you want PDVF, zone classification, and a run plan in one block. The run plan names the signal target (what Gate 3 will check against) and the review cap by zone. Walkthrough: [docs/intake-to-zone.md](docs/intake-to-zone.md).
+
+---
+
 ## How to use these skills
 
 These are [Claude Code](https://claude.ai/code) skills. Claude Code is Anthropic's CLI for Claude.
@@ -59,6 +66,7 @@ Invoke a skill by typing its name as a slash command in Claude Code:
 ```
 /pdvf-filter
 /zone-classifier
+/intake-to-zone
 /gate3-review
 ```
 
